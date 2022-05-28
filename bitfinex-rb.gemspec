@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = 'bitfinex-rb'
-  spec.version       = '1.0.11'
+  spec.version       = '1.0.12'
   spec.authors       = ['Bitfinex']
   spec.email         = ['developers@bitfinex.com']
   spec.summary       = %q{Bitfinex API Wrapper}
@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = 'https://www.bitfinex.com/'
   spec.license       = 'MIT'
 
-  spec.files         = Dir['lib/**/*'] 
+  spec.files         = Dir['lib/**/*']
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ['lib']
   spec.add_runtime_dependency 'faraday', '~> 0.15.3', '>= 0.15.3'
