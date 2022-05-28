@@ -1,6 +1,6 @@
 module Bitfinex
   module RESTv2Book
-    def ticker(symbol)
+    def book(symbol)
       get("book/#{symbol}/P0")
     end
   end
